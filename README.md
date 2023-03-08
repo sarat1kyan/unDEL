@@ -12,7 +12,7 @@
 # unDEL
 
 
-**Description**
+**Description:**
 This code provides a flexible and customizable file recovery tool that can be used to recover deleted files from a variety of sources, including local file systems, disk images, and remote servers. The code is written in Python and can be run on both Windows and Linux systems.
 
 **Attention!**
@@ -20,7 +20,7 @@ In order to recover deleted files in certain directories (such as system directo
 
 However, it's important to note that running a script with elevated privileges can also be dangerous and could potentially harm your system if not used carefully. Make sure to carefully review the code and understand what it does before running it with elevated privileges. It's always a good practice to create a backup of important data before attempting any data recovery.
 
-**Requirements**
+**Requirements:**
 To use this code, you will need to have Python 3 installed on your system. In addition, the code uses several external libraries that you may need to install using pip:
 
      **Python 3** (can be downloaded from https://www.python.org/downloads/)
@@ -34,7 +34,7 @@ To use this code, you will need to have Python 3 installed on your system. In ad
      **tqdm** library (can be installed via pip install tqdm)
      **psutil** library (can be installed via pip install psutil)
      
-**How to use**
+**How to use:**
 To use the code, you can simply download the unDEL.py file and run it from the command line using Python. The code provides several options that you can specify when running it.
 As I said the unDEL.py script is designed to recover deleted files on your system. It works by scanning your file system for deleted files and attempting to recover them. The script supports various options to customize the recovery process, including:
 
@@ -46,7 +46,7 @@ As I said the unDEL.py script is designed to recover deleted files on your syste
     Running in verbose mode to show more detailed information about the recovery process
     e.t.c
 
-Overall, the script provides a flexible and powerful tool for recovering deleted files on your system.
+The script provides a flexible and powerful tool for recovering deleted files on your system.
     Recover files from a disk image
     Recover files from a remote server
     Preview the contents of the recovered file in the console before saving
@@ -72,6 +72,6 @@ The script includes a verbose mode that provides more detailed information about
 
 I think this "readme" contains everything you need to start using the script, please check the code before running it to see what the code will do during the execution process.
 
-Run the script at your own risk, all the sh!t that happened to your system is on your conscience.
+**Run the script at your own risk, all the sh!t that happened to your system is on your conscience.**
 
 Good luck.
