@@ -53,27 +53,27 @@ The script provides a flexible and powerful tool for recovering deleted files on
     Preview the contents of the recovered file in the console before saving
     Recover only files of specific types
     Recover all files in a directory and its subdirectories.
-    _Many other features will be accessible soon_
+    *Many other features will be accessible soon.
     
 You can see a list of available options and their descriptions by running the code with the -h or --help option:
      
-    _python unDEL.py --help_
+    python unDEL.py --help
      
 By default, the script will recover files to a directory named recovered_files in the same directory as the script. You can change the output directory using the -o or --output option, followed by the desired output directory path:
      
-    _python unDEL.py -o /path/to/output/directory [options]_
+    python unDEL.py -o /path/to/output/directory [options]
      
 The script also allows you to specify the type of file to recover using the -t or --type option, followed by the desired file type. For example, to recover only JPEG files, run the following command:
      
-    _python unDEL.py -t [type for example jpg] [options]_
+    python unDEL.py -t [type for example jpg] [options]
 
 The script includes a progress bar to indicate the progress of the file recovery process. If you don't want to see the progress bar, you can use the -q or --quiet option to run the script in quiet mode:
      
-    _python unDEL.py -q [options]_
+    python unDEL.py -q [options]
 
 The script includes a verbose mode that provides more detailed information about the file recovery process. You can use the -v or --verbose option to enable verbose mode:
     
-    _python unDEL.py -v [options]_
+    python unDEL.py -v [options]
 
 
 I think this "readme" contains everything you need to start using the script, please check the code before running it to see what the code will do during the execution process.
