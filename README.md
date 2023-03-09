@@ -57,7 +57,7 @@ The script provides a flexible and powerful tool for recovering deleted files on
     
 You can see a list of available options and their descriptions by running the code with the -h or --help option:
      
-    _python unDEL.py --help _
+    _python unDEL.py --help_
      
 By default, the script will recover files to a directory named recovered_files in the same directory as the script. You can change the output directory using the -o or --output option, followed by the desired output directory path:
      
